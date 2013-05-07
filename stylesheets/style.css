@@ -9,32 +9,33 @@ html, body {
   background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;
-  height: 650px;
+  height: 700px;
   position: relative;
 }
 
 /* line 15, ../sass/style.scss */
 .mountain {
   background: url(../img/mountain.jpg);
+  background-position: 0 100px;
 }
 
-/* line 19, ../sass/style.scss */
+/* line 20, ../sass/style.scss */
 .sunset {
   background: url(../img/sunset.jpg);
-  background-position: 0 -1400px;
+  background-position: 0 -1600px;
   height: auto;
-  padding: 7em 0;
+  padding: 4em 0 12em;
 }
 
-/* line 26, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
 #welcome {
   margin-top: 2em;
 }
-/* line 29, ../sass/style.scss */
+/* line 30, ../sass/style.scss */
 #welcome #tagline {
   margin-bottom: 3em;
 }
-/* line 33, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 #welcome #call-action {
   background: #990000;
   color: #fff;
@@ -44,7 +45,7 @@ html, body {
   border-radius: 30px;
 }
 
-/* line 43, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 .circle {
   background: #f2f50d;
   width: 100%;
@@ -58,7 +59,7 @@ html, body {
   border: 12px solid #fff;
 }
 
-/* line 56, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .photo h1 {
   bottom: 0;
   color: white;

@@ -8,19 +8,20 @@ html, body {
     background-attachment: fixed;
     background-position: 50% 0;
     background-repeat: no-repeat;
-    height: 650px;
+    height: 700px;
     position: relative;
 }
 
 .mountain {
     background: url(../img/mountain.jpg);
+    background-position: 0 100px;
 }
 
 .sunset {
     background: url(../img/sunset.jpg);
-    background-position: 0 -1400px;
+    background-position: 0 -1600px;
     height: auto;
-    padding: 7em 0;
+    padding: 4em 0 12em;
 }
 
 #welcome {
