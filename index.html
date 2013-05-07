@@ -4,27 +4,63 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 
 <head>
-	<meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>Foundation 4</title>
+ 	<meta charset="utf-8" />
+  	<meta name="viewport" content="width=device-width" />
+  	<title>Foundation 4</title>
 
-  <link rel="stylesheet" href="stylesheets/normalize.css" />
+  	<link rel="stylesheet" href="stylesheets/normalize.css" />
+  	<link rel="stylesheet" href="stylesheets/app.css" />
+	<link rel="stylesheet" href="stylesheets/style.css" />
   
-  <link rel="stylesheet" href="stylesheets/app.css" />
-  
-
-  <script src="javascripts/vendor/custom.modernizr.js"></script>
-
+  	<script src="javascripts/vendor/custom.modernizr.js"></script>
+  	<script src="javascripts/vendor/stellar/libs/jquery/jquery-2.0.0.js"></script>
+  	<script src="javascripts/vendor/stellar/jquery.stellar.min.js"></script>
+  	<script>
+		$(function(){
+			$.stellar({
+				horizontalScrolling: false,
+            });
+        });
+    </script>  
 </head>
+
 <body>
 
+<div class="photo mountain" data-stellar-background-ratio="0.5">
 	<div class="row">
-		<div class="large-12 columns">
-			<h2>Welcome to Foundation</h2>
-			<p>This is version 4.1.5.</p>
-			<hr />
+		<div class="large-12 columns" id="welcome">
+			<h2>Product Name</h2>
+			<div class="large-5" id="tagline">
+				<p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur.</p>
+			</div>
+			
+			<a href="#" id="call-action">Call to action &raquo;</a>
 		</div>
-	</div>
+	</div>	
+</div>
+
+<div class="photo sunset" data-stellar-background-ratio="0.5">
+	<div class="row">
+		<div class="large-4 columns">
+			<div class="circle">
+				Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+			</div>
+		</div>
+
+		<div class="large-4 columns">
+			<div class="circle">asdf</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="circle">asdf</div>
+		</div>		
+	</div>	
+</div>
+
+<div class="photo mountain" data-stellar-background-ratio="0.5"></div>
+<div class="photo sunset" data-stellar-background-ratio="0.5"></div>
+		
+
 
 	<div class="row">
 		<div class="large-8 columns">
